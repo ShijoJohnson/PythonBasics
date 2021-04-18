@@ -1,29 +1,28 @@
 """Write a program which will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).
 The numbers obtained should be printed in a comma-separated sequence on a single line.
 """
-"""lst = []
+lst = []
 for num in range(2000,3201):
     if (num % 7 ==0) and (num % 5 !=0) :
         lst.append(str(num))
-print(','.join(lst))"""
+print(','.join(lst))
 
-"""
 l=[]
 for i in range(2000, 3201):
     if (i%7==0) and (i%5!=0):
         l.append(str(i))
 
 print(','.join(l))
-"""
-"""inp = input("Enter the numbers:")
+
+inp = input("Enter the numbers:")
 int_inp = list(map(int,inp.split(',')))
 print(int_inp)
-"""
-"""l = []
+
+l = []
 for i in range(1,100):
     if(i%7 == 0 and i%5 != 0):
         l.append(str(i))
-print(",".join(l))"""
+print(",".join(l))
 
 ### Question 2
 """Level 1
@@ -42,7 +41,7 @@ def calcFact(n):
 
 print(calcFact(8))
 
-"""def calcFact():
+def calcFact():
     inp = input("Enter the number to find factorial: ")
     try:
         inp_int = int(inp)
@@ -56,15 +55,15 @@ print(calcFact(8))
     for i in range(inp_int):
         product = product * (i+1)
     print(product)
-calcFact()"""
+calcFact()
 
 
-"""def calcFact(num):
+def calcFact(num):
     if num ==0:
         return(1)
     return (num * calcFact(num -1))
 
-print(calcFact(8))"""
+print(calcFact(8))
 
 
     
@@ -80,19 +79,19 @@ Then, the output should be:
 {1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64}"""
 
 
-"""dict = {}
+dict = {}
 n = 8
 for i in range(1,8+1):
     dict[i] = i*i
 
-print(dict)"""
+print(dict)
 
 
-"""inp = int(input("Enter the num:"))
+inp = int(input("Enter the num:"))
 mydic = {}
 for i in range(1,inp+1):
     mydic[i] = i*i
-print(mydic)"""
+print(mydic)
 
 
 """Hints:
@@ -152,7 +151,7 @@ printString: to print the string in upper case.
 Also please include simple test function to test the class methods.
 """
 
-"""class myClass():
+class myClass():
     def __init__(self):
         self.inp = ""
 
@@ -165,7 +164,7 @@ Also please include simple test function to test the class methods.
 p = myClass()
 p.getStrin()
 p.putString()
-"""
+
 """
 Solution:
 ```python
