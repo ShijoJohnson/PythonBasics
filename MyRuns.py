@@ -267,11 +267,6 @@ without,hello,bag,world
 Then, the output should be:
 bag,hello,without,world
 """
-"""inp = input("Enter strings: ")
-inp_lst = inp.split(',')
-inp_lst.sort()
-print(inp_lst)"""
-
 """inp = ['a', 'v', 'c']
 print(inp)
 inp.sort()
